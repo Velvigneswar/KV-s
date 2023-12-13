@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Layout</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            margin: 20px auto;
+            width: 80%;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .cont {
+            background: orange;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            width: 300px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .para {
+            color: black;
+            margin-top: 10px;
+        }
+
+        img {
+            width: 80px; /* Adjust the size of the image as needed */
+            height: 80px; /* Adjust the size of the image as needed */
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="row-1">
+        <div class="cont">
+            <center>
+                <img src="business.svg">
+                <div class="para">Next Film (Thriller)</div>
+            </center>
+        </div>
+
+        <div class="cont">
+            <center>
+                <img src="https://kissflow.com/hubfs/KF%20Brand%20Home/No-code.svg">
+                <div class="para">Automate workflows in a drag-and-drop no-code visual studio</div>
+            </center>
+        </div>
+
+        <div class="cont">
+            <center>
+                <img src="https://kissflow.com/hubfs/KF%20Brand%20Home/Lowcode.svg">
+                <div class="para">Super-charge development with a solid low-code app builder</div>
+            </center>
+        </div>
+    </div>
+
+    <div class="row-2">
+        <div class="cont">
+            <center>
+                <img src="https://kissflow.com/hubfs/KF%20Brand%20Home/App-Store.svg">
+                <div class="para">Out-of-the-box case management and task management tools</div>
+            </center>
+        </div>
+
+        <div class="cont">
+            <center>
+                <img src="https://kissflow.com/hubfs/KF%20Brand%20Home/Case___Process.svg">
+                <div class="para">Accelerate using our marketplace of 400+ pre-built templates</div>
+            </center>
+        </div>
+
+        <div class="cont">
+            <center>
+                <img src="https://kissflow.com/hubfs/setting.svg">
+                <div class="para">Use the same platform for development, testing, and production</div>
+            </center>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
